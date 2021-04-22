@@ -1,0 +1,177 @@
+html {
+    font-size: 10px;
+}
+
+
+body {
+    background: url("/static/img/fon1.JPG");
+    background-size: cover;
+    font-size: 16px;
+}
+
+.site-header {
+    background: url("/static/img/2.png");
+    height: 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.nav{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav_item {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    padding-top: 20px;
+}
+
+.description {
+    color: white;
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.clear {
+	clear:both;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+.dishes{
+    width: 350px;
+    height: 350px;
+    float: right;
+    background: url("/static/img/plate.png");
+}
+
+.dish_item {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+.site-footer{
+    background-color: #800000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content {
+    width: 1000px;
+    height: 600px;
+    float: left;
+    background: url("/static/img/plate2.png");
+    background-size: cover;
+}
+
+.text_content {
+    padding-left: 220px;
+    padding-top: 200px;
+}
+
+.calc {
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background: url("/static/img/calc_bg.png");
+    background-size: cover;
+    border-radius: 12px;
+    border: grey;
+    margin-right: 10px;
+}
+
+.display {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: #98ff98;
+    padding: 13px 16px;
+    border: green;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+.menu {
+    background: url("/static/img/menu.jpg");
+    color: white;
+    width: 1030px;
+    height: 640px;
+    float: left;
+    background-size: cover;
+}
+
+.text_content {
+    padding-top: 300px;
+}
+
+.dishes_menu {
+    background: #ab2020;
+    width: 1000px;
+    float: left;
+    border-radius: 12px;
+    border: #6e0724;
+}
+
+.dishes_item {
+    background: #fddde6;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: #f77c9f;
+}
+
+.new_recipe {
+    background: url("/static/img/fon.jpg");
+    background-size: cover;
+    font-size: 16px;
+}
+
+.recipe_items {
+    background-color: orange;
+    border-radius: 12px;
+    width: 500px;
+    height: 640px;
+    float: right;
+}
